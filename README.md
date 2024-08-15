@@ -14,4 +14,7 @@ Please note that some files may have the same size, but different content. They 
 ### Usage
 <code>SmallToolsIUse.FolderDiff.exe "C:\Some Folder" "C:\Some other folder"</code>
 
+### Release
+[Go to release page](https://github.com/CosminVana/SmallToolsIUse/releases/tag/FolderDiff)
+
 
