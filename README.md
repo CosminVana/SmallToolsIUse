@@ -70,5 +70,7 @@ You have the following methods which will be properly translated to SQL:
 
 <code>OrderByField, ThenByField, Paginate, SortAndPaginate</code>
 
+### Releases
+https://www.nuget.org/packages/SmallToolsIUse.Linq.Extensions/ 
 
 
