@@ -5,8 +5,6 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallToolsIUse.FolderDiff", "SmallToolsIUse.FolderDiff\SmallToolsIUse.FolderDiff.csproj", "{C57BA752-C5BD-4AA7-8AF8-56E5BB2879DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallToolsIUse.Linq.Extensions", "SmallToolsIUse.Linq.Extensions\SmallToolsIUse.Linq.Extensions.csproj", "{333B2C76-4A28-46F0-9ABD-2262ED6060F3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{C57BA752-C5BD-4AA7-8AF8-56E5BB2879DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C57BA752-C5BD-4AA7-8AF8-56E5BB2879DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C57BA752-C5BD-4AA7-8AF8-56E5BB2879DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{333B2C76-4A28-46F0-9ABD-2262ED6060F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{333B2C76-4A28-46F0-9ABD-2262ED6060F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{333B2C76-4A28-46F0-9ABD-2262ED6060F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{333B2C76-4A28-46F0-9ABD-2262ED6060F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
