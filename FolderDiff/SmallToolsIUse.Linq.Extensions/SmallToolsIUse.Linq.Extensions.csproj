@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SmallToolsIUse Linq Extensions</Title>
+    <Authors>Cosmin Vana</Authors>
+    <Description>A set of IEnumerable and IQueryable extensions which can be used to perform common project tasks, such as checking if a list contains elements from another list, or sorting by a field name.</Description>
+    <PackageProjectUrl>https://www.vanacosmin.ro/articles/SmallToolsIUseLinqExtensions/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CosminVana/SmallToolsIUse</RepositoryUrl>
+    <PackageTags>Linq LinqExtensions OrderByField In NotIn</PackageTags>
+  </PropertyGroup>
+
+</Project>
