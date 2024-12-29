@@ -26,14 +26,15 @@ Add the following using statement:
 
 ### IEnumerable Extensions
 
-Check if an instance which implementes IEnumerable is null or empty:
+<b>Check if an instance which implementes IEnumerable is null or empty:</b>
 
 <code>if(!customers.IsNullOrEmpty())
   {
       // do something with customers
   }</code>
 
-Compare two IEnumerable of different types (e.g. DTO from your API and entities from your database):
+<br />
+<b>Compare two IEnumerable of different types (e.g. DTO from your API and entities from your database):</b>
 
 <code>var customersToUpdate = customersDto.In(customersFromDb, c => c.Id, c => c.Id)</code>
 
@@ -42,6 +43,13 @@ Compare two IEnumerable of different types (e.g. DTO from your API and entities 
 <code>var customersToInsert = customersDto.NotIn(customersFromDb, c => c.Id, c => c.Id)</code>
 
 Note: If both collections have the same type, you need to specify a single key selector.
+
+<br />
+<b>Check if items which exist in both IEnumerable, by key selecor, are different based on a comparrison function:</b>
+
+<code>var modifiedFiles = files.ModifiedIn(filesInBackup, f => f.FileName, (sourceF, destF) => sourceF.ModifiedDate != destF.ModifiedDate)</code>
+
+<code>var modifiedCustomers = customersDto.ModifiedIn(customersFromDb, c => c.Id, c => c.Id, (sourceC, destC) => sourceC.Name != destC.Name)</code>
 
 ### IQueryable Extensions
 
