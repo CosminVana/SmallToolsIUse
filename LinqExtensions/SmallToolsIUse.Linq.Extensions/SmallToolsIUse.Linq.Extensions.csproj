@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://www.vanacosmin.ro/articles/SmallToolsIUseLinqExtensions/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/CosminVana/SmallToolsIUse</RepositoryUrl>
     <PackageTags>Linq LinqExtensions OrderByField In NotIn</PackageTags>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
